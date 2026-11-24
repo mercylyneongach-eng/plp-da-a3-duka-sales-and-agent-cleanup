@@ -1,0 +1,63 @@
+# PLP Data Analysis Assignment 3
+
+## Project Overview
+
+This repository contains two data analysis engagements completed using Python, Pandas, NumPy, Google Colab and Excel.
+
+## Engagement 1: Duka Electronics Sales Analysis
+
+The analysis explores sales performance across five branches over a six-month period.
+
+Key activities:
+- Data exploration and analysis.
+- Monthly and branch revenue comparisons.
+- Premium online sales analysis for Nairobi and Mombasa.
+- Excel analysis using formulas, XLOOKUP and PivotTables.
+- Executive summary of findings.
+
+Key findings:
+- Total revenue: KES 71,792,500.
+- Total orders: 1,000.
+- Best-performing branch: Nairobi.
+- Best-performing month: April.
+
+## Engagement 2: Mobile-Money Agent Data Cleaning
+
+This engagement focuses on identifying and correcting data-quality issues in mobile-money transaction records.
+
+Key activities:
+- Data-quality auditing.
+- Duplicate removal.
+- Standardisation of transaction types.
+- Handling missing and invalid values.
+- Outlier identification.
+- Agent-register merging and county analysis.
+- Weekly transaction analysis.
+- Data privacy considerations.
+
+## Repository Structure
+
+- `duka_sales_exploration.ipynb` – Duka sales analysis.
+- `agent_cleanup.ipynb` – Mobile-money data cleaning and analysis.
+- `cleaning_pipeline.py` – Reusable cleaning function.
+- `requirements.txt` – Python dependencies.
+- `generate_data.py` – Data generation script.
+- `outputs/` – Exported analysis results.
+- `excel/` – Excel analysis workbook.
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Google Colab
+- Microsoft Excel
+- GitHub
+
+## Installation
+
+Install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
